@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+
+/*box-sizing уберает возмонжность border менять ширину и висоту блока*/ 
+
+body {
+    background: url('../images/ellipse_1_copy_4.png') 200px 106px/1190px 1064px no-repeat;
+    background-color: #e8e8e8;
+}
+
+.main {
+    margin: 168px 340px 0;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    width: 841px;
+}
+.header {
+    text-align: center;
+    color: #273d46;
+    margin-bottom: 55px;
+}
+.title {
+    opacity: 0.6;
+line-height: 40px;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+}
+.name {
+    font-family: 'Times New Roman';
+font-size: 36px;
+line-height: 50px;
+}
+.photo {
+    height: 561px;
+    width: 841px;
+ box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+ padding: 10px;
+ background-color: white;
+ margin-bottom: 90px;
+}
+.text {
+    padding: 0 60px 0 45px;
+    
+}
+.maintext {
+    opacity: 0.8;
+font-family: 'Times New Roman';
+font-size: 24px;
+line-height: 40px;
+font-weight: 400;
+color: #273d46;
+margin-bottom: 60px;
+}
+
+.list {   
+    font-size: 20px;
+    line-height: 36px;
+    color: #273d46;
+    margin-bottom: 50px;
+}
+
+.list li {
+    background: url('../images/check_icon_39.png') left no-repeat;
+    padding-left: 30px;
+}
+
+.lione {
+text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+}
+.litwo {
+font-style: italic;
+color: #80b7b3;
+}
+.lithree {
+font-weight: 700;
+}
+.lifour {
+text-decoration: line-through;
+}
+
+.lifour p {
+    opacity: 0.3;
+}
+
+
+.buttonlink {
+    background: url('../images/shape_2_9.png') 150px 15px no-repeat;
+    font-family: Arial;
+font-size: 14px;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+background-color: #80b7b3;
+display: block;
+    width: 199px;
+    height: 44px;
+    box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+    border-radius: 50px;
+    padding: 3px 30px;
+}
+
+
+
